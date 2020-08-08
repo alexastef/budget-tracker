@@ -46,6 +46,7 @@
   <script src="index.js"></script>
   <script src="/db.js"></script>
   <script type="text/javascript">
+  // register service worker
     (function() {
       if("serviceWorker" in navigator) {
         navigator.serviceWorker.register("./service-worker.js", { scope: "/" })
